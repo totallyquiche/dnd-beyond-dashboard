@@ -52,6 +52,7 @@
                     <div class="col-12">
                         <div id="accordion">
                             <?php include('sections/cards/actions-in-combat.php'); ?>
+                            <?php include('sections/cards/combat-conditions.php'); ?>
                         </div>
                     </div>
                 </div>
