@@ -55,6 +55,7 @@
                             <?php include('sections/cards/combat-conditions.php'); ?>
                             <?php include('sections/cards/movement.php'); ?>
                             <?php include('sections/cards/vision-and-light.php'); ?>
+                            <?php include('sections/cards/cover.php'); ?>
                         </div>
                     </div>
                 </div>
