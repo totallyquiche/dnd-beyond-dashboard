@@ -54,6 +54,7 @@
                             <?php include('sections/cards/actions-in-combat.php'); ?>
                             <?php include('sections/cards/combat-conditions.php'); ?>
                             <?php include('sections/cards/movement.php'); ?>
+                            <?php include('sections/cards/vision-and-light.php'); ?>
                         </div>
                     </div>
                 </div>
