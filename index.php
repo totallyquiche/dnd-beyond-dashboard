@@ -9,7 +9,7 @@
         <title>D&amp;D Beyond Dashboard</title>
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Mono&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=VT323&family=Roboto+Mono&display=swap" rel="stylesheet">
 
         <style type="text/css">
             body {
@@ -20,7 +20,20 @@
             }
 
             h1 {
-                font-size: 1.15rem;
+                font-size: 1.5rem;
+            }
+
+            th {
+                font-size: 1.25rem;
+            }
+
+            h1, th {
+                font-family: "VT323", Serif;
+            }
+
+            button, input {
+                font-size: 1.25rem !important;
+                font-family: "VT323", Serif;
             }
 
             .badge {
@@ -39,6 +52,22 @@
             .card-header:not(.collapsed) {
                 background-color: #dc3545 !important;
             }
+
+            .card-body th:nth-of-type(2), .card-body td:nth-of-type(2) {
+                display: none;
+            }
+
+            @media (min-width: 576px) {}
+
+            @media (min-width: 768px) {
+                .card-body th:nth-of-type(2), .card-body td:nth-of-type(2) {
+                    display: table-cell;
+                }
+            }
+
+            @media (min-width: 992px) {}
+
+            @media (min-width: 1200px) {}
         </style>
 
     </head>
