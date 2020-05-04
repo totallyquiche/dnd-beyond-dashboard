@@ -56,6 +56,7 @@
                             <?php include('sections/cards/movement.php'); ?>
                             <?php include('sections/cards/vision-and-light.php'); ?>
                             <?php include('sections/cards/cover.php'); ?>
+                            <?php include('sections/cards/resting.php'); ?>
                         </div>
                     </div>
                 </div>
