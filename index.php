@@ -90,6 +90,8 @@
                 });
 
                 searchForm.find(".btn").first().trigger("click");
+
+                $('[data-toggle="tooltip"]').tooltip();
             });
         </script>
     </body>
