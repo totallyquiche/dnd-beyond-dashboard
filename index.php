@@ -53,6 +53,7 @@
                         <div id="accordion">
                             <?php include('sections/cards/actions-in-combat.php'); ?>
                             <?php include('sections/cards/combat-conditions.php'); ?>
+                            <?php include('sections/cards/movement.php'); ?>
                         </div>
                     </div>
                 </div>
