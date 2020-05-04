@@ -26,6 +26,7 @@
             <div class="container mt-4 mb-4 mt-lg-5 mb-lg-5">
                 <?php include('sections/logo.php'); ?>
                 <?php include('sections/search.php'); ?>
+                <?php include('sections/quick-info.php'); ?>
             </div>
         </div>
 
