@@ -18,6 +18,27 @@
                 background-size: cover;
                 font-family: "Roboto Mono";
             }
+
+            h1 {
+                font-size: 1.15rem;
+            }
+
+            .badge {
+                font-size: 1rem;
+            }
+
+            .card-header {
+                padding: 0;
+                cursor: pointer;
+            }
+
+            .card-header:hover {
+                background-color: #dc3545 !important;
+            }
+
+            .card-header:not(.collapsed) {
+                background-color: #dc3545 !important;
+            }
         </style>
 
     </head>
@@ -27,6 +48,13 @@
                 <?php include('sections/logo.php'); ?>
                 <?php include('sections/search.php'); ?>
                 <?php include('sections/quick-info.php'); ?>
+                <div id="accordion-row" class="row pb-4">
+                    <div class="col-12">
+                        <div id="accordion">
+                            <?php include('sections/cards/actions-in-combat.php'); ?>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
